@@ -10,7 +10,7 @@ if ($request.headers) {
         console.log('================')
 
         const options = {
-            "url": `换成你的域名/cookie/update`,
+            "url": "101.37.26.164:8888",
             'body': JSON.stringify({
                 "pt_key": pt_key,
                 "pt_pin": pt_pin
